@@ -11,6 +11,11 @@
 				"type": "constructor"
 			},
 			{
+				"inputs": [],
+				"name": "Enter_Valid_Amount",
+				"type": "error"
+			},
+			{
 				"anonymous": false,
 				"inputs": [
 					{
@@ -494,11 +499,11 @@
 			]
 		},
 		"contracts/MyToken.sol": {
-			"keccak256": "0x803422f09fe83475628b9479bdf9cddfe0a1f153a4d7bbee4045bf0131f53c0d",
+			"keccak256": "0x2d6d57b53e42a2af04bb6a9476a0def787faa9ee0c4a24e32404e3d6714576f0",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://f76bb74f318aa78a0267afe198cb5ac0959520636d722cbbe801500a20842279",
-				"dweb:/ipfs/QmQ2Gc1kREgLfQQHPkadCbs2SBBNQEfVwjHPFpJ7LMgS9s"
+				"bzz-raw://c4c44b3ce0e4bca2f13fbb7fd6dcb1993417389a6ade40390f0140b584c13ef6",
+				"dweb:/ipfs/QmUjVESqCS9kLojVSNxak2HqjGxEquttPDwFJV4eRE2irh"
 			]
 		}
 	},
