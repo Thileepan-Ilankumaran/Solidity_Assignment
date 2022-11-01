@@ -187,6 +187,25 @@
 				"inputs": [
 					{
 						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "depositer",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "depositedTokens",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
 						"name": "spender",
 						"type": "address"
 					},
@@ -274,6 +293,19 @@
 			{
 				"inputs": [],
 				"name": "totalSupply",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "totalTokens",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -462,11 +494,11 @@
 			]
 		},
 		"contracts/MyToken.sol": {
-			"keccak256": "0xa10310d64d6b2c524aa2af42c616da6fa522596c3824d6288fcdec0430b8ba99",
+			"keccak256": "0x803422f09fe83475628b9479bdf9cddfe0a1f153a4d7bbee4045bf0131f53c0d",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://daef74c38ce7cc772b858bd47710cb9e7e68a66697a7af234fc0446fba634afc",
-				"dweb:/ipfs/QmUgoW1o2cuLeB6ZzpNarwuYjDqSUfMyq7JitKndDt1RNa"
+				"bzz-raw://f76bb74f318aa78a0267afe198cb5ac0959520636d722cbbe801500a20842279",
+				"dweb:/ipfs/QmQ2Gc1kREgLfQQHPkadCbs2SBBNQEfVwjHPFpJ7LMgS9s"
 			]
 		}
 	},

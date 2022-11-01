@@ -5,9 +5,19 @@ import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 
 contract MyToken is ERC20, Ownable {
-    constructor() ERC20("MyToken", "MTK") {}
+    uint public totalTokens; 
 
-    function mint(address to, uint256 amount) public onlyOwner {
+    struct Factory {
+        uint depositedTokens;
+    }
+
+    mapping(address=>Factory)public depositer;
+    
+    constructor() ERC20("MyToken", "MTK") {
+        mint(msg.sender,1500);
+    }
+
+    function mint(address to, uint amount) public onlyOwner {
         _mint(to, amount);
     }
 }
