@@ -211,6 +211,25 @@
 				"inputs": [
 					{
 						"internalType": "address",
+						"name": "walletAddress",
+						"type": "address"
+					}
+				],
+				"name": "findSlab",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "_slab",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
 						"name": "spender",
 						"type": "address"
 					},
@@ -517,11 +536,11 @@
 			]
 		},
 		"contracts/MyToken.sol": {
-			"keccak256": "0xdc071c24a59c4cb895e919c6de6c3779931c583cd284d9b589a41dac009dc403",
+			"keccak256": "0x0990e005b20b5729faccb775779985b1acddd74ae0c9d0cc10ec87f67cbe5ace",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://b07336191c95ddf7caf9b320d0396d5637959d4e6571f70465451f0212b9fbcd",
-				"dweb:/ipfs/QmeZ5ju9EDiTDp6TzoWv6zNkpUnt5Fdbkpma97C2zDFTj9"
+				"bzz-raw://8efcd942b5c8319a67c73f4fd71362ef6c29be2b87e3ec2b5b091d2906d5c8e9",
+				"dweb:/ipfs/QmdtNGuHNc3TiJg4uZgwjbaNr8KFvekm46jxuQyqfCzVWS"
 			]
 		}
 	},
