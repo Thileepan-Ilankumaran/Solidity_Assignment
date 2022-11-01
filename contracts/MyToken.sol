@@ -6,10 +6,10 @@ import "@openzeppelin/contracts/access/Ownable.sol";
 error Enter_Valid_Amount();
 
 contract MyToken is ERC20, Ownable {
-    uint public totalTokens; 
+    uint32 public totalTokens; 
 
     struct Factory {
-        uint depositedTokens;
+        uint32 depositedTokens;
     }
 
     mapping(address=>Factory)public depositer;
@@ -18,10 +18,19 @@ contract MyToken is ERC20, Ownable {
         mint(msg.sender,1500);
     }
 
-    function mint(address to, uint amount) public onlyOwner {
+    function mint(address to, uint32 amount) public onlyOwner {
         _mint(to, amount);
         if (amount > 1500) {
             revert Enter_Valid_Amount();
         }
     }
+    function tokenTransfer(address walletAddress, uint32 tokenCount) public payable {
+        transfer(walletAddress, tokenCount);
+        depositer[msg.sender]. depositedTokens = depositer[msg.sender]. depositedTokenst+tokenCount;
+        totalTokens += tokenCount;
+        if (totalTokens > 1500 || totalTokens <=0) {
+            revert Enter_Valid_Amount();
+        }
+    }
+
 }

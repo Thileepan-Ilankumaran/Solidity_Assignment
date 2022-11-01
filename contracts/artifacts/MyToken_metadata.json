@@ -199,9 +199,9 @@
 				"name": "depositer",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "uint32",
 						"name": "depositedTokens",
-						"type": "uint256"
+						"type": "uint32"
 					}
 				],
 				"stateMutability": "view",
@@ -239,9 +239,9 @@
 						"type": "address"
 					},
 					{
-						"internalType": "uint256",
+						"internalType": "uint32",
 						"name": "amount",
-						"type": "uint256"
+						"type": "uint32"
 					}
 				],
 				"name": "mint",
@@ -296,6 +296,24 @@
 				"type": "function"
 			},
 			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "walletAddress",
+						"type": "address"
+					},
+					{
+						"internalType": "uint32",
+						"name": "tokenCount",
+						"type": "uint32"
+					}
+				],
+				"name": "tokenTransfer",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "totalSupply",
 				"outputs": [
@@ -313,9 +331,9 @@
 				"name": "totalTokens",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "uint32",
 						"name": "",
-						"type": "uint256"
+						"type": "uint32"
 					}
 				],
 				"stateMutability": "view",
@@ -499,11 +517,11 @@
 			]
 		},
 		"contracts/MyToken.sol": {
-			"keccak256": "0x2d6d57b53e42a2af04bb6a9476a0def787faa9ee0c4a24e32404e3d6714576f0",
+			"keccak256": "0xdc071c24a59c4cb895e919c6de6c3779931c583cd284d9b589a41dac009dc403",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://c4c44b3ce0e4bca2f13fbb7fd6dcb1993417389a6ade40390f0140b584c13ef6",
-				"dweb:/ipfs/QmUjVESqCS9kLojVSNxak2HqjGxEquttPDwFJV4eRE2irh"
+				"bzz-raw://b07336191c95ddf7caf9b320d0396d5637959d4e6571f70465451f0212b9fbcd",
+				"dweb:/ipfs/QmeZ5ju9EDiTDp6TzoWv6zNkpUnt5Fdbkpma97C2zDFTj9"
 			]
 		}
 	},
