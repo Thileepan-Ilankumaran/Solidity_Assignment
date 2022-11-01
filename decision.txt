@@ -1,5 +1,5 @@
 1. Owner has 1500 tokens pre-minted. In tokenTransfer provide "address" and "number of tokens" to transfer tokens from one contract to another.
 
-2. Other than Owner, tokens should be minted for other addresses only by owner.
+2. Other than Owner, tokens should be minted for other addresses only by owner. Ownership can be replaced.
 
 3. findSlabs show the slab at which deposited token lies.
