@@ -219,7 +219,7 @@
 				"outputs": [
 					{
 						"internalType": "string",
-						"name": "_slab",
+						"name": "Slab",
 						"type": "string"
 					}
 				],
@@ -536,11 +536,11 @@
 			]
 		},
 		"contracts/MyToken.sol": {
-			"keccak256": "0x0990e005b20b5729faccb775779985b1acddd74ae0c9d0cc10ec87f67cbe5ace",
+			"keccak256": "0x09283d5fc40daefcdd67cb1779acbf276b2305f41b058112161ccdb95dd85a95",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://8efcd942b5c8319a67c73f4fd71362ef6c29be2b87e3ec2b5b091d2906d5c8e9",
-				"dweb:/ipfs/QmdtNGuHNc3TiJg4uZgwjbaNr8KFvekm46jxuQyqfCzVWS"
+				"bzz-raw://945ff8357ef23a6ea2a6d031161e5b3d0573d237e559b588c8abf7a49c8696eb",
+				"dweb:/ipfs/QmdWynvTpASLwdHkFfPCyWWXJg5zPW5thpQvssqSC7qVnE"
 			]
 		}
 	},
