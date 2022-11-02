@@ -36,7 +36,7 @@ contract MyToken is ERC20, Ownable {
         }
     }
     function findSlab(address walletAddress)public view returns (string memory Slab)  {
-        uint32 count=depositer[msg.sender].depositedTokens; //tokens getting filled in descending order (from high to low Slab)
+        uint32 count=totalTokens; //tokens getting filled in descending order (from high to low Slab)
         if (count<=500 ){
             return "4" ;
         }
